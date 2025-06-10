@@ -39,3 +39,14 @@ Um clone simplificado do Twitter, desenvolvido com HTML, CSS e JavaScript, integ
 1. Clone o repositório:
 ```bash
 git clone https://github.com/Leandro-Oli2/MiniTwitter.git
+```
+### Responsáveis
+
+<div style="display: flex; gap: 10px;">
+  <a href="https://github.com/Leandro-Oli2">
+    <img src="https://github.com/Leandro-Oli2.png" alt="Leandro Oliveira" style="border-radius: 50%; width: 60px; height: 60px; margin: 10%">
+  </a>
+  <a href="https://github.com/MariaEduardaSntRib">
+    <img src="https://github.com/MariaEduardaSntRib.png" alt="Maria Ribeiro" style="border-radius: 50%; width: 60px; height: 60px; margin: 10%">
+  </a>
+</div>
