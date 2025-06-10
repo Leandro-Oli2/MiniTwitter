@@ -1,4 +1,4 @@
-# 🐦 Mini Twitter
+#  Mini Twitter
 
 Um clone simplificado do Twitter, desenvolvido com HTML, CSS e JavaScript, integrando com uma API para autenticação, postagens e gerenciamento de perfil.
 
