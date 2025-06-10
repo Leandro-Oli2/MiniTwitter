@@ -38,4 +38,4 @@ Um clone simplificado do Twitter, desenvolvido com HTML, CSS e JavaScript, integ
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/mini-twitter.git
+git clone https://github.com/Leandro-Oli2/MiniTwitter.git

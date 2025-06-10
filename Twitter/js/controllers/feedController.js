@@ -1,3 +1,5 @@
+// Controller responsável por lidar com a criação e exibição de postagens no feed
+
 import { renderFeedView } from "../views/feedView.js";
 import { createPost, getAllPosts } from "../repositories/postRepository.js";
 

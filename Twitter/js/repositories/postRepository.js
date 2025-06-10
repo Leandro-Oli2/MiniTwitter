@@ -1,7 +1,9 @@
+// Repositório responsável por operações relacionadas a postagens (criar e listar posts)
+
 const API_BASE = "https://mini-twitter-api-vy9q.onrender.com/api";
 
 export async function createPost(content) {
-  const token = localStorage.getItem("token");  // pegar token aqui
+  const token = localStorage.getItem("token");  
 
   const response = await fetch(`${API_BASE}/posts`, {
     method: "POST",
@@ -20,7 +22,7 @@ export async function createPost(content) {
 }
 
 export async function getAllPosts() {
-  const token = localStorage.getItem("token");  // pegar token aqui
+  const token = localStorage.getItem("token");
 
   const response = await fetch(`${API_BASE}/posts`, {
     headers: {

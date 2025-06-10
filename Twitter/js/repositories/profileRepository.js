@@ -1,3 +1,5 @@
+// Repositório responsável por obter e atualizar dados do perfil do usuário
+
 const API_BASE = "https://mini-twitter-api-vy9q.onrender.com/api";
 
 export async function getProfile() {

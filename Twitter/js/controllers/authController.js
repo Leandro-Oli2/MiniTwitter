@@ -1,4 +1,4 @@
-// js/controllers/authController.js
+// Controller responsável por gerenciar o fluxo de autenticação (login e cadastro)
 import { renderLoginAndRegisterForm } from "../views/authView.js";
 import { login, register } from "../repositories/userRepository.js";
 import { renderFeed } from "./feedController.js"; 

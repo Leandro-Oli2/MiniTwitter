@@ -1,3 +1,4 @@
+// Arquivo principal da aplicação: decide entre autenticação e feed com base no token
 import { initAuth } from "./controllers/authController.js";
 import { renderFeed } from "./controllers/feedController.js";
 import { renderProfile } from "./controllers/profileController.js";

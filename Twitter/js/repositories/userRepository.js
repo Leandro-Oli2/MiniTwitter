@@ -1,4 +1,4 @@
-// js/repositories/userRepository.js
+// Repositório responsável por autenticação de usuários (login e cadastro)
 const API_BASE = "https://mini-twitter-api-vy9q.onrender.com/api";
 
 export async function login(email, password) {

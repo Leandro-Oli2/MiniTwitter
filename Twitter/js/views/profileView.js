@@ -1,10 +1,13 @@
+// Função responsável por renderizar a tela de perfil do usuário
 export function renderProfileView(usuario, posts, onBack, onUpdate) {
   const app = document.getElementById("app");
+
+  // Substitui o conteúdo da div principal pelo HTML do perfil
   app.innerHTML = `
     <div class="profile-container">
       <header>
         <h2>Perfil de @${usuario.username}</h2>
-        <button id="backBtn">Voltar</button>
+        <button id="backBtn">Voltar</button> <!-- Botão para voltar -->
       </header>
 
       <section class="user-info">
@@ -15,7 +18,7 @@ export function renderProfileView(usuario, posts, onBack, onUpdate) {
           <label for="email">Email:</label>
           <input type="email" id="email" value="${usuario.email}" required />
           
-          <button type="submit">Salvar Alterações</button>
+          <button type="submit">Salvar Alterações</button> <!-- Envia os dados atualizados -->
         </form>
       </section>
 
@@ -33,13 +36,13 @@ export function renderProfileView(usuario, posts, onBack, onUpdate) {
           `
                 )
                 .join("")
-            : "<p>Você ainda não postou nada.</p>"
+            : "<p>Você ainda não postou nada.</p>" 
         }
       </section>
     </div>
   `;
 
+  // Eventos: clique no botão de voltar e envio do formulário de edição
   document.getElementById("backBtn").addEventListener("click", onBack);
   document.getElementById("editForm").addEventListener("submit", onUpdate);
-
 }

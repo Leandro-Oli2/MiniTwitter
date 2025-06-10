@@ -1,3 +1,4 @@
+// Controller responsável por carregar e atualizar o perfil do usuário
 import { renderProfileView } from "../views/profileView.js";
 import { getUserPosts } from "../repositories/postRepository.js";
 import { updateProfile } from "../repositories/profileRepository.js";
