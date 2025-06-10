@@ -1,0 +1,125 @@
+/* ====== CONTAINERS ====== */
+.auth-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  background: white;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feed-container,
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+/* ====== LOGO ====== */
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* ====== FORMULÁRIOS ====== */
+.form-group {
+  margin-bottom: 2rem;
+}
+
+input,
+.input-field,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+/* ====== BOTÕES ====== */
+button,
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1da1f2;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #0d8bdc;
+}
+
+/* ====== HEADER ====== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-header {
+  border-bottom: 1px solid #e1e8ed;
+  padding-bottom: 10px;
+}
+
+/* ====== POSTS ====== */
+.posts,
+.user-posts {
+  margin-top: 20px;
+}
+
+.post {
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-content {
+  margin: 0;
+}
+
+.post-date {
+  color: #657786;
+  font-size: 12px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* ====== OUTROS ====== */
+.new-post {
+  margin: 20px 0;
+}
+
+.edit-form {
+  margin: 20px 0;
+}
